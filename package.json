@@ -1,0 +1,17 @@
+{
+  "name": "node-express-test",
+  "version": "0.2.0",
+  "description": "This project is a test project for testing NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nohup node index.js </dev/null >> server.log 2>> error.log &",
+    "stop": "pkill -f \"node index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teemu Kokkinen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "repository": {}
+}
