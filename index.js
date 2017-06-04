@@ -1,14 +1,17 @@
-var express = require('express')
-var app = express()
+'use strict';
 
-var port = 8010
+var express = require('express');
+var app = express();
 
-app.get('/', function (req, res) {
-  res.send('Hello NodeJS World!')
-})
+var port = 8010;
+
+app.use(express.static('public'));
+app.get('/', function(req, res) {
+    res.sendFile(__dirname + '/public/html/index.html');
+});
 
 app.listen(port, function () {
-  var message = 'Node Express example app listening on port ' + port + '!'
-  console.log(message)
-})
+  var message = 'Node Express example app listening on port ' + port + '!';
+  console.log(message);
+});
 
