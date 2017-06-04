@@ -13,5 +13,13 @@
   "dependencies": {
     "express": "^4.15.2"
   },
-  "repository": {}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teemuko/node-express-test.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
+  }
 }
