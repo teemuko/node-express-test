@@ -11,7 +11,9 @@
   "author": "Teemu Kokkinen",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "winston": "^2.4.0",
+    "dateformat": "^3.0.2"
   },
   "repository": {
     "type": "git",
