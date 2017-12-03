@@ -13,5 +13,4 @@ gulp
 ```
 
 ### TODO for this project ###
-- Add proper logging.
 - Add some neat UI library.
